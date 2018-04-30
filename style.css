@@ -1,0 +1,93 @@
+body{
+	font-family:Verdana, Arial, sans-serif;
+	background-color:#FBFFB5;
+}
+
+
+#header{
+    background-image: url(images/Mentals_Logo.jpg);
+    background-position: center;
+    width: 100%;
+	height:300px;
+	
+}
+
+nav li a {
+	padding:5px 15px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#0800FF;
+	color:rgba(0,0,0,0.7);
+	text-shadow:0 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+nav li a:hover, nav li a:focus{
+	color:#f00;
+	background-color:rgba(255,0,0, 0.15);
+	text-decoration:underline;
+
+}
+
+h1 {
+    color:0800FF;
+}
+
+
+#program-logos{
+	text-align:center;
+}
+#program-logos li{
+	display:inline-block;
+}
+#program-logos a img{
+	opacity:1.50;
+	margin:0 50px;
+    height: 100px;
+    width: 100px;
+}
+#program-logos a:hover img, #footer-logos a:focus img{
+	opacity:0.6;
+
+}
+
+
+
+
+
+#footer{
+	background-color: #D1F4FF;
+	color: #0800FF;
+	text-align:center;
+	padding:10px 0;
+    width: 100%;
+    height: 150px;
+	clear:both;
+}
+
+footer{
+	clear:both;
+
+}
+#footer-logos{
+	text-align:center;
+}
+#footer-logos li{
+	display:inline;
+}
+#footer-logos a img{
+	opacity:0.25;
+	margin:0 50px;
+}
+#footer-logos a:hover img, #footer-logos a:focus img{
+	opacity:0.6;
+
+}
+
+
